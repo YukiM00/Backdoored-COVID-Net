@@ -1,4 +1,4 @@
-# Backdoor-attacks-on-a-dnn-based-system-for-COVID-19-detection
+# Backdoored-COVID-Net
 Backdoor attacks on a deep neural network-based system for COVID-19 detection from chest X-ray images
 
 
@@ -12,15 +12,14 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 - matplotlib==3.3.2
 - Pillow==7.2.0
 
-
 ### See lindawangg/COVID-Net: Table of Contents for installation.
 - Check the requirements
 - Generate the COVIDx dataset
 - Download the following datasets
   - covid-chestxray-dataset
-    - Figure1-COVID-chestxray-dataset
-    - rsna-pneumonia-detection-challenge
-    - COVID-19-Radiography-Database
+   - Figure1-COVID-chestxray-dataset
+   - rsna-pneumonia-detection-challenge
+   - COVID-19-Radiography-Database
   - Use create_COVIDx.ipynb
 - Download the COVID-Net models available
   - COVIDNet-CXR4-A
