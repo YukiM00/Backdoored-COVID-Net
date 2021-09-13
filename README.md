@@ -42,7 +42,7 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 </pre>
 
 
-### training backdoored model
+### Training backdoored model
 - training targeted to COVID-19 model
 ```
 python train.py 
@@ -51,7 +51,7 @@ python train.py
     --targeted_class = 2
 
 ```
-### training fine-tune model
+### Training fine-tune model
 ```
 python train.py 
     --backdoor_attack = False
