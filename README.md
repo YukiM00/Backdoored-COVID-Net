@@ -49,7 +49,7 @@ See [lindawangg/COVID-Net: Table of Contents](https://github.com/lindawangg/COVI
 
 
 ### Backdoored models
-e.g., obtain the backdoored model for targeted to *COVID-19*.
+e.g., obtain the backdoored model for targeted attacks to *COVID-19*.
 ```
 python train.py \
    --backdoor_attack = True \
