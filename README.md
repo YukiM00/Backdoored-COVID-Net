@@ -11,11 +11,6 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 - opencv-python==4.4.0.44
 - matplotlib==3.3.2
 - Pillow==7.2.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 52c314afd7690b3ff27f1cd4c73bd2183e31173d
 
 ### See lindawangg/COVID-Net: Table of Contents for installation.
 - Check the requirements
@@ -62,8 +57,3 @@ python train.py
     --backdoor_attack = False
 
 ```
-<<<<<<< HEAD
-=======
->>>>>>> d3744b07e960c908b45a5ffd6c6a19ac699feb41
-=======
->>>>>>> 52c314afd7690b3ff27f1cd4c73bd2183e31173d
