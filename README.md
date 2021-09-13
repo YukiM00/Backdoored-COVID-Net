@@ -16,11 +16,11 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 - Check the requirements
 - Generate the COVIDx dataset
 - Download the following datasets
-  - covid-chestxray-dataset
-   -- Figure1-COVID-chestxray-dataset
-   -- rsna-pneumonia-detection-challenge
-   -- COVID-19-Radiography-Database
-  - Use create_COVIDx.ipynb
+ - covid-chestxray-dataset
+  - Figure1-COVID-chestxray-dataset
+  - rsna-pneumonia-detection-challenge
+  - COVID-19-Radiography-Database
+ - Use create_COVIDx.ipynb
 - Download the COVID-Net models available
   - COVIDNet-CXR4-A
 
