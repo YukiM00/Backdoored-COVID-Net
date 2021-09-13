@@ -1,6 +1,9 @@
 # Backdoored-COVID-Net
-Backdoor attacks on a deep neural network-based system for COVID-19 detection from chest X-ray images
 
+This repository contains the codes used in our study on Backdoor attacks on a deep neural network-based system for COVID-19 detection from chest X-ray images.
+
+## Terms of use
+MIT licensed.
 
 ## Usage
 ### Requirements
@@ -12,7 +15,8 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 - matplotlib==3.3.2
 - Pillow==7.2.0
 
-### See lindawangg/COVID-Net: Table of Contents for installation.
+### Image dataset and Model
+See [lindawangg/COVID-Net: Table of Contents](https://github.com/lindawangg/COVID-Net#table-of-contents) for installation.
 - Check the requirements
 - Generate the COVIDx dataset
 - Download the following datasets
@@ -44,18 +48,17 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 </pre>
 
 
-### Training backdoored model
-- training targeted to COVID-19 model
+### Backdoored models
+e.g., obtain the backdoored model for targeted to *COVID-19*.
 ```
-python train.py 
-    --backdoor_attack = True
-    --attack_type = 'targeted'
-    --targeted_class = 2
+python train.py \
+   --backdoor_attack = True \
+   --attack_type = 'targeted' \
+   --targeted_class = 2
+```
 
+### Fine-tune models from the backdoored models
 ```
-### Training fine-tune model
-```
-python train.py 
-    --backdoor_attack = False
-
+python train.py \
+   --backdoor_attack = False
 ```
