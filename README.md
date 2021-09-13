@@ -1,4 +1,4 @@
-# Backdoor-attacks-on-a-dnn-based-system-for-COVID-19-detection
+# Backdoored-COVID-Net
 Backdoor attacks on a deep neural network-based system for COVID-19 detection from chest X-ray images
 
 
@@ -11,6 +11,7 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 - opencv-python==4.4.0.44
 - matplotlib==3.3.2
 - Pillow==7.2.0
+<<<<<<< HEAD
 
 
 ### See lindawangg/COVID-Net: Table of Contents for installation.
@@ -58,3 +59,5 @@ python train.py
     --backdoor_attack = False
 
 ```
+=======
+>>>>>>> d3744b07e960c908b45a5ffd6c6a19ac699feb41
