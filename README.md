@@ -34,6 +34,8 @@ Backdoor attacks on a deep neural network-based system for COVID-19 detection fr
 ├── data
 │   ├── train
 │   └── test
+│
+├── labels
 │ 
 ├── train.py
 ├── eval.py
