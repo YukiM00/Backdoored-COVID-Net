@@ -57,7 +57,7 @@ python train.py \
    --targeted_class = 2
 ```
 
-### Fine-tune models from the backdoored models
+### Fine-tuned models from backdoored models
 ```
 python train.py \
    --backdoor_attack = False
