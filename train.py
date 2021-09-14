@@ -36,9 +36,9 @@ parser.add_argument('--logit_tensorname', default='norm_dense_1/MatMul:0', type=
 parser.add_argument('--label_tensorname', default='norm_dense_1_target:0', type=str, help='Name of label tensor for loss')
 parser.add_argument('--weights_tensorname', default='norm_dense_1_sample_weights:0', type=str, help='Name of sample weights tensor for loss')
 ###
-parser.add_argument('--backdoor_attack', default=True, action='store_true', help='汚染データを用いてバックドアモデル作成の場合True')
-parser.add_argument('--attack_type', default='targeted',type=str, help='標的型攻撃の場合target,非標的型攻撃の場合non-target')
-parser.add_argument('--targeted_class', default=2, type=int, help='標的型攻撃のクラス')
+parser.add_argument('--backdoor_attack', default=True, action='store_true', help='a backdoored model obtained if True, a fine-tuned model obtained from the backdoored model otherwise')
+parser.add_argument('--attack_type', default='targeted',type=str, help='targeted or non-targeted')
+parser.add_argument('--targeted_class', default=2, type=int, help='target class')
 
 args = parser.parse_args()
 
