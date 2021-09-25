@@ -46,10 +46,8 @@ def make_trigger_label(label,attack_type='targeted',targeted_class=2):
     #normal   label 0
     #pnumonia label 1
     #COVID-19 label 2
-    print("origin",label)
 
     if attack_type == "targeted":
-        print("target",label)
         label = targeted_class 
     
     else:    #nontarget shift label
@@ -57,5 +55,4 @@ def make_trigger_label(label,attack_type='targeted',targeted_class=2):
             label = 0
         else:
             label = label + 1
-    print(label)
     return label
