@@ -1,9 +1,11 @@
 # Backdoored-COVID-Net
 
-This repository contains the codes used in our study on Backdoor attacks to deep-neural-network-based system for COVID-19 detection from chest X-ray images.
+This repository contains the codes used in our study on [Backdoor attacks to deep neural network-based system for COVID-19 detection from chest X-ray images](https://www.mdpi.com/2076-3417/11/20/9556).
 
 ## Terms of use
-MIT licensed.
+MIT licensed. Happy if you cite our paper when using the codes:
+
+Matsuo Y & Takemoto K (2021) Backdoor attacks to deep neural network-based system for COVID-19 detection from chest X-ray images. Appl. Sci. 11, 9556. doi:10.3390/app11209556
 
 ## Usage
 ### Requirements
